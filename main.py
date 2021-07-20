@@ -36,7 +36,7 @@ content = input("Wiki Content: ")
 def WikiSpammer():
     while True:
      try:
-        sub_client.post_wiki(title=title, content=content, imageList=[open("rittammorgen.jpg", "rb")])
+        sub_client.post_wiki(title=title, content=content)
      finally:
          pass
          print("The community is being trolled. Good luck.")
