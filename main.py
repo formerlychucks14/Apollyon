@@ -3,10 +3,6 @@ import pyfiglet
 import colorama
 from colorama import Fore, Back, Style
 import threading 
-import sys
-import PIL
-from PIL import Image
-from amino import util, lib
 
 print(Fore.BLUE)
 print(Style.BRIGHT)
